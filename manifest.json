@@ -1,0 +1,16 @@
+{
+  "name": "Asus Download Master",
+  "description": "The plugin allows you to submit download tasks to the Asus Download Master  from Chrome context menu.",
+  "version": "0.1",
+  "permissions": ["contextMenus" , "webRequest", "webRequestBlocking", "http://*/"],
+  "background": {
+	"scripts": ["jquery-2.1.0.min.js", "downloadmaster.js"]
+  },
+ "options_page": "options.html",
+ "icons": {
+          "16": "download.png",
+	  "48": "downloadmaster2.png",
+          "128": "downloadmaster2.png" 
+        },
+  "manifest_version": 2
+}
